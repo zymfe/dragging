@@ -2,6 +2,7 @@
  * Description: 弹出框等元素拖拽类
  * User: zhaoyiming
  * Date: 2017/9/21
+ * License: MIT, https://github.com/zymseo/dragging
  */
 
 ;(function(global, oDoc, factory){

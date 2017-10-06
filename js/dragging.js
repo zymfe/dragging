@@ -6,15 +6,9 @@
  */
 
 ;(function(global, oDoc, factory){
-
-	typeof exports === 'object' && typeof module !== 'undefined'
-	? module.exports = factory(oDoc)
-	: typeof define === 'function' && define.amd
-	? define([], function () {
-		return factory(oDoc);
-	})
-	: (global.dragging = factory(oDoc));
-
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(oDoc) :
+	typeof define === 'function' && define.amd ? define([], function () {return factory(oDoc);}) :
+	(global.dragging = factory(oDoc));
 })(window, document, function (oDoc) {
 	'use strict';
 
